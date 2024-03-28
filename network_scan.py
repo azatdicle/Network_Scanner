@@ -19,7 +19,7 @@ def get_user_input():
     return user_input
         
 def scan_my_network(ip):
-    arp_request_packet=scapy.ARP(psrc=ip)
+    arp_request_packet=scapy.ARP(pdst=ip)
     brodcast_packet=scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
     combinebacket=arp_request_packet/brodcast_packet
     (answered_list,unanswered_list) = scapy.srp(combinebacket,timeout=1)
