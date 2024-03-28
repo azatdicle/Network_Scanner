@@ -1,6 +1,7 @@
 # Ağ Tarayıcı
 
 Bu basit Python programı, ağınızdaki cihazları taramak için kullanılabilecek bir araçtır. Kullanıcıdan IP adresi girişi alır ve sonra bu IP adresine ARP isteği göndererek ağdaki cihazları taramak için kullanır.
+![Ekran görüntüsü 2024-03-28 235437](https://github.com/azatdicle/Network_Scanner/assets/75863129/5eca0159-d1b5-4875-b847-4238ff49396e)
 
 ## Kullanım Kılavuzu
 
